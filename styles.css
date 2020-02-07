@@ -23,3 +23,13 @@ text-align: center;
 
 }
 
+.barra{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: inherit;
+    text-decoration-line: none;
+}
+
+.menu p{
+    text-align: justify;
+}
