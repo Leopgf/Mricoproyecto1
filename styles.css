@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 750px;
+        background: url('fondo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        color: whitesmoke;
+        text-align: center;
+    }
+    
+    .encabezado{
+    background-color: #04080f;
+    color: whitesmoke;
+    text-align: center;
+    
+    }
+    
+    .barra{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background: inherit;
+        text-decoration-line: none;
+    }
+    
+    .menu p{
+        text-align: justify;
+    }
+
+    .porcentajes{
+        text-align: end center;
+    }
