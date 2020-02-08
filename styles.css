@@ -1,5 +1,6 @@
 *{
 
+
 margin: 0;
 padding: 0;
 }
@@ -35,4 +36,7 @@ text-align: center;
     text-align: justify;
 }
 
-   
+    .porcentajes{
+        text-align: end center;
+    }
+
