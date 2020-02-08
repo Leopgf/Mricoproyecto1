@@ -1,6 +1,7 @@
 *{
 
 
+
 margin: 0;
 padding: 0;
 }
@@ -38,5 +39,49 @@ text-align: center;
 
     .porcentajes{
         text-align: end center;
+    }
+
+
+    #contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    form{
+        width: 350px;
+        margin: auto;
+        background: rgba(3,3 0,3, 0.4);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        min-height: 100px;
+    }
+
+    input{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+
+    #boton{
+        background: #04080f;
+        color: aquamarine;
+        padding: 20px;
+    }
+
+    .formulario{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 
